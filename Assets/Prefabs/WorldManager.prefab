@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5199870153112112811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5199870153112112810}
+  - component: {fileID: 5199870153112112805}
+  m_Layer: 0
+  m_Name: WorldManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5199870153112112810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199870153112112811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5199870153112112805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199870153112112811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677619c41b203847a43240c4d42cfac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hudUI: {fileID: 0}
+  cellPrefab: {fileID: 3705883491790696565, guid: 5738714dac0bb574c91d1c6c6ea69c1b,
+    type: 3}
+  monsterPrefabs:
+  - {fileID: 1745172256395218505, guid: a47fa302615babd43a369c6747704970, type: 3}
+  - {fileID: 1745172256395218505, guid: a47fa302615babd43a369c6747704970, type: 3}
+  heroPrefab: {fileID: 7468032288531112280, guid: ff997f1e841a7264eb8085312b4e8011,
+    type: 3}
+  powerPillPrefab: {fileID: 2577552905826733560, guid: 81a2bc9e6ecfc4a488a6a2e31ee77d51,
+    type: 3}
+  energyPackPrefab: {fileID: 1923778730827453250, guid: 672c13644b7f3864592e7e390f116490,
+    type: 3}
+  GameOverCanvas: {fileID: 0}
+  ScoreCanvas: {fileID: 0}
+  monsters: []
+  monsterSpawnPoints: []
+  powerPillCells: []
+  energyPackCells: []
+  mazeHeight: 10
+  mazeWidth: 15
+  monsterTotal: 0
+  monsterInitialTotal: 4
+  monsterCurrentCount: 0
+  monsterRespawnWaitTime: 5
+  waitTillAddAdditionalMonster: 10
+  powerPillInitialTotal: 4
+  powerPillCurrentCount: 0
+  energyPackTotal: 4
+  energyPackCurrentCount: 0
+  energyPackWaitTime: 5
+  okToAddMonster: 1
